@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+ <html lang="es">
+    <head>
+        <!-- sirve para los asentos-->
+        <meta charset="UTF-8">
+        <title>cesar arturo</title>
+        <style>
+            header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color:antiquewhite;
+                padding: 10px 20px;                
+            }
+            .logo-pequeno {
+                width: 50px;
+                height: auto;
+                display: block;
+            }
+            .logo-cabecera {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin-bottom: 15px;
+
+            }
+            .barra-navegacion {
+                display: flex;
+                gap: 15px;
+                margin-top: 10px;
+            }
+            .boton {
+                margin: 1px;
+                text-decoration: none;
+                color: #414748;
+                background-color: #cad1d3;
+                border-radius: 4px;
+                padding: 6px 12px;
+                font-size: 15px;
+                transition: background-color 0.3s;
+            }
+            .boton_activo {
+                margin: 1px;
+                font-weight: bold;
+                text-decoration: none;
+                background-color: #6f787a;
+                color: #c1ced0;
+                border-radius: 4px;
+                padding: 6px 12px;
+                font-size: 15px;
+            }
+            .boton:hover {
+                background-color: #6f787a;
+                color: #c1ced0;
+            }
+
+            main {
+                display: flex;
+                gap: 20px;
+            }
+            aside {
+                width: 25%;
+                background-color: antiquewhite;
+                padding: 15px;
+            }
+            section{
+                width: 75%;
+                background-color: antiquewhite;
+                padding: 15px;
+            }
+            h1, h2, p { color:blueviolet; font-family: Arial;}
+        </style>
+    </head>
+    <body>
+        <header>
+        <div>
+            <h1 style="margin: 0;">Mi pagina Web</h1>
+            <nav class="barra-navegacion"> Menú de navegación </nav>
+            <a href="pugspagina.html" class="boton">inicio</a>
+            <a href="pugspagina2.html" class="boton">secundario</a>
+            <a href="pugspagina3.html" class="boton_activo">final</a>
+        </div>
+                <img src="imagen/pug.jpg" width="250" height="200" alt="Logo de mi sitio web" class="logo">
+        </header>
+        <main>
+            <aside>
+                <h3>Pugs Mayores</h3>
+                <p>Publicidad, Enlaces, Categorias...</p>
+                <img src="imagen/pugmayor.jpg" width="300" height="350">
+
+               
+            </aside>
+            <!-- Esta seccion muestra el bloque de contenido -->
+            <section>
+                <article>
+                    <h2>Pugs De Razas Distintas</h2>
+                    <p>Contenido del articulo</p>
+                      <img src="imagen/pugsitos.jpg" width="550" height="350">
+                </article>
+            </section>
+        </main>
+        <hr>
+        <footer>
+            <h2>5BVPG</h2>
+            <p>Cesar Arturo Valdes Morales</p>
+        </footer>
+    <body>
+    </body>
+</html>
